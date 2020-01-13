@@ -2,10 +2,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Cat ani1 = new Cat();
-        Dog ani2 = new Dog();
+        ICryable _cat = new Cat();
+        ICryable _dog = new Dog();
 
-        ani1.bark();
-        ani2.bark();
+        _cat.cry();
+        _dog.bark();
     }
 }
